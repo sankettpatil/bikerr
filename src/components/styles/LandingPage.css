@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+}
+
+.first-division {
+  text-align: center;
+  padding: 6em 2em; /* Adjusted padding for more space on the sides */
+  background-image: url("/Users/sanketpatil/my-bike-riders-app/i.jpeg");
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  min-height: 600px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items horizontally */
+  justify-content: flex-end; /* Align content to the bottom */
+}
+
+.first-division h1 {
+  font-family: "Rowdies", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 4em;
+  color: white !important;
+  margin-bottom: 0.5em;
+}
+
+.first-division p {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #fff;
+  margin: 1em 0;
+}
+
+.first-division div {
+  margin-top: 2em;
+}
+
+
+.cta-button {
+  font-family: "Rowdies", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  /* Increased font size  */
+  font-size: 3em; /* Adjust as needed */
+
+  /* Increased padding */
+  padding: 0.6em 1em; /* Adjust as needed */
+
+  background-color: #0070c9;
+  color: #fff;
+  border: none;
+  border-radius: 30px; /* Adjust the border-radius as needed for more roundness */
+  cursor: pointer;
+  margin: 1em;
+
+  /* Optional: Set width and height */
+  /* width: 200px; */  /* Example width */
+  /* height: 60px; */   /* Example height */
+}
+
+
+.cta-button:hover {
+  background-color: #005499;
+}
+
+
+
+nav {
+  background-color: #333;
+  color: white;
+  padding: 1em;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 1; /* Set a higher z-index to keep it above other content */
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav li {
+  cursor: pointer;
+}
+
+.footer {
+  text-align: center;
+  padding: 1em;
+  background-color: #333;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@700&display=swap');
+
+
+

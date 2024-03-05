@@ -1,0 +1,110 @@
+/* App.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+  }
+  
+  nav {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  nav li {
+    cursor: pointer;
+  }
+  
+  .first-division {
+    text-align: center;
+    padding: 3em;
+    background-color: #f0f0f0;
+  }
+  
+  .first-division h1 {
+    font-size: 3em;
+    color: #333;
+  }
+  
+  .first-division div {
+    margin-top: 2em;
+  }
+  
+  .first-division button {
+    font-size: 1.2em;
+    margin: 0 1em;
+    padding: 0.5em 1em;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .first-division button:hover {
+    background-color: #555;
+  }
+  
+  .second-division {
+    text-align: center;
+    padding: 3em;
+    background-color: #e0e0e0;
+  }
+  
+  .second-division h2 {
+    font-size: 2.5em;
+    color: #333;
+  }
+  
+  .testimonials {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2em;
+  }
+  
+  .testimonial {
+    padding: 1em;
+    border: 1px solid #ccc;
+    background-color: white;
+  }
+  
+  .footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #333;
+    color: white;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .first-division,
+    .second-division {
+      padding: 2em;
+    }
+  
+    .first-division h1 {
+      font-size: 2.5em;
+    }
+  
+    .first-division button {
+      font-size: 1em;
+      margin: 0.5em;
+    }
+  
+    .second-division h2 {
+      font-size: 2em;
+    }
+  
+    .testimonial {
+      margin: 0.5em;
+    }
+  }
+  
